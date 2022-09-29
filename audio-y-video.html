@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio y video</title>
+    <style>
+        video{
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <audio src="assets/audio/pepsiskafest.mp3" controls autoplay muted>Pepsi ska fest</audio>
+    </div>
+    <div>
+        <video src="/assets/video/Cat - 66004.mp4" controls muted loop poster="assets/images/Dongato.webp"></video>>
+        <!--
+            autoplay -> Que inicie el video en cuanto abras la pagina
+            muted -> Que no se reproduzca el sonido, sino esta muteado no se reproduce el video pasa lo mismo con los audios 
+            controls -> Controles del video o audio
+            loop -> Que se reproduzca el video una vez tras otra
+            poster -> para poner una imagen antes de que se reproduzca el video (Se debe quitar el autoplay)
+        -->
+    </div>
+</body>
+</html>

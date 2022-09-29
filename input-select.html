@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection elements</title>
+</head>
+<body>
+    <!--
+        radio -> Permite seleccionar una única opcion de una lista de opciones relacionadas
+        checkbox -> Permite seleccionar varias opciones de una lista de opciones relacionadas
+        select -> Crea una lista de opciones donde podemos seleccionar una o varias opciones. Cada opcion llleva una etiqueta <option> </option>
+        se puede ordenar por grupos relacionados con
+        <optgroup>
+    -->
+    <div>
+    <form>
+        <h2>Género</h2>
+        <label>
+            Masculino
+        <input type="radio" name="gender" checked value="Masculino"> <!--Name="" para que solo se seleccione uno se utiliza cuando las opciones se relacionan y debe llevar el mismo nombre dentro de ""-->
+        </label>
+        <label>
+            Femenino
+        <input type="radio" name="gender" value="Femenino">
+        </label> 
+        <label>
+            No binario
+        <input type="radio" name="gender" value="No binario">
+                </label>  
+    <!--
+        checked ->Para que se marque la casilla
+        value -> En caso de q toda la informacion del formulario sea enviada para identificar las preguntas y respuestas
+    -->   
+    </form>
+</div>
+<div>
+    <form>
+<h2>Lenguajes que conoces</h2>
+<label>
+    HTML
+    <input type="checkbox" checked name="languages" value="HTML">
+</label>
+<label>
+    CSS
+    <input type="checkbox" name="languages" value="CSS">
+</label>
+<label>
+    JavaScript
+    <input type="checkbox" name="languages" value="JS">
+</label>
+</form>
+</div>
+<div>
+    <form>
+        <h2>ELementos seleccionados</h2>
+    <select name="languages">
+            <option value="HTML">HTML
+            </option>
+            <option value="CSS">CSS
+            </option>
+            <option value="JS">JavaScript
+            </option>
+    </select>
+    <!--
+        Atributo *multiple* para poder seleccionar mas de uno 
+    -->
+</form>
+</div>
+<div>
+    <h2>Mascotas</h2>
+    <form>
+<select name="Mascotas">
+<optgroup label="4 patas"><!--Dividir en grupos-->
+    <option value="Perro">Perro</option>
+    <option value="Gato">Gato</option>
+    <option value="Tortuga">Tortuga</option>
+    <option value="Hamster">Hamster</option>
+    <option value="Conejo">Conejo</option>
+</optgroup>
+    <option value="Perico">Perico</option>
+    <option value="Canario">Canario</option>
+    <option value="Serpiente">Serpiente</option>
+    <option value="Tarantula">Tarantula</option>
+</select>
+    </form>
+</div>
+<div>
+    <h2>Datalist</h2><!--Filtro de busqueda-->
+    <form>
+<input type="list" list="pets">
+<datalist id="pets">
+    <option value="Perico">Perico</option>
+    <option value="Canario">Canario</option>
+    <option value="Serpiente">Serpiente</option>
+    <option value="Tarantula">Tarantula</option>
+</datalist>
+    </form>
+</div>
+<div>
+    <form>
+<!--
+    fieldset -> agrupar elementos dentro de un formulario
+    legend ->Etiqueta para el contenido fieldset
+    file -> cargar archivos y enviarlos desde el formulario
+    meter -> Representa un valor dentro de un rango conocido
+    progress -> Representa el progreso de una tarea
+    textarea -> Introducir texto en un formulario
+-->
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <div>
+<label for="name">Nombre</label>
+<input type="text" id="name">
+</div>
+<div>
+<label for="surname">Apellidos</label>
+<input type="text" id="surname">
+</div>
+</fieldset>
+    </form>
+    <form>
+        <div>
+        <input type="file">
+    </div>
+    <label  for="fuel">Combustible</label>
+        <meter id="fuel" min="0" max="100" value="50"></meter>
+<div>
+    <label for="task">Tarea 1</label>
+    <progress id="task" max="100" value="10"></progress> <!--La barrita se recorre si no se coloca el = en value-->
+</div>
+<div>
+<textarea name="" id="message" cols="80" rows="10"></textarea>
+    </form>
+</div>
+</body>
+</html>

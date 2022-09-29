@@ -1,0 +1,39 @@
+/* ¿Comó funciona CSS?
+Especificidad -> Establece como de especifico es un selector para saber que estilo aplicar.
+El calculo se realiza con la siguiente formula
+    1-Etiquetas y pseudo 001
+    2-Clases, etiquetas y psrudooclases 010
+    3-Ids 100
+    4-Estilos en linea 1000
+    El de suma mas importante gana o si se coloca !important 
+Cascada -> funciona siempre que la especifidad del elemento sea la misma
+Herencia -Capacidad de algunos elementos de heredar algunas propiedades de sus elementos contenedores (padres, abuelos, etc)
+    inherit -> para forzar la herencia de un estilo
+*/
+/*Siempre utilizar clases para dar estilos*/
+h1{
+    background-color: darkgoldenrod !important;
+}
+.title{
+    background-color: darkgreen;
+}/*CLASES*/
+#title{
+    background-color: darkorchid;
+}
+.title-2{
+    color: darkviolet;
+}
+/*id se usa #*/
+/*class se usa .*/
+p{
+    color: deepskyblue;
+}
+.link{
+    color: inherit;
+} /*Debe colocarse para que el link tambien aparezca del mismo color que el parrafo para no usar el color se puede usar inherit*/
+li{
+    background-color: khaki;
+}
+.list{
+    background-color: initial;
+}

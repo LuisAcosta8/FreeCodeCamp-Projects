@@ -1,0 +1,105 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1 id="title">Get a job form
+</h1>
+    <p id="description">Are you looking for a job? - Complete this form</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+      <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required></label>
+      <label id="number-label">Age <input id="number" type="number" placeholder="Age" min="18" max="90" required></label>
+      </fieldset>
+      <fieldset>
+    <label>Occupation
+    <select id="dropdown">
+      <option disabled>Select one</option>
+      <option value="employee">Employee 
+</option>
+      <option value="unemployee">Unemployed </option>
+      <option value="student">Student </option>
+      <option value="housewife">Housewife/Househusband</option>
+    </select>
+    </label>
+    </fieldset>
+    <fieldset>
+    <label>What area of ​​opportunity interests you?
+</label>
+    <label><input type="radio" name="area" value="CS" class="inline">Customer service</label>
+    <label><input type="radio" name="area" value="HR" class="inline">Human resources</label>
+    <label><input type="radio" name="area" value="EN" class="inline">Engineering</label>
+    <label><input type="radio" name="area" value="IT" class="inline">IT</label>
+    <label><input type="radio" name="area" value="AD" class="inline">Administration</label>
+    </fieldset>
+    <fieldset>
+    <label>How did you hear about us?</label>
+    <label><input type="checkbox" value="news" class="inline">News</label>
+    <label><input type="checkbox" value="tv" class="inline">TV</label>
+    <label><input type="checkbox" value="internet" class="inline">Internet</label>
+    <label><input type="checkbox" value="newspaper" class="inline">Newspaper</label>
+    </fieldset>
+    <fieldset>
+    <label>Tell us a bit about yourself
+    <textarea type="text" placeholder="Previous, jobs, skills, aptitudes, hobbies..." rows="4" cols="30"></textarea>
+    </label>
+    <input type="submit" id="submit" value="Submit">
+    </fieldset>
+    </form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1,p{
+    text-align: center;
+  }
+  body { 
+    background: url(https://img1.goodfon.com/wallpaper/nbig/5/f5/minimalizm-logotip-kompyuter-2221.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    font-family: Arial black;
+  }
+  fieldset {
+    border: none;
+    padding: 0 0;
+    border-bottom: 3px solid green;
+  }
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+** end of undefined **
+

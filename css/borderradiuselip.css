@@ -1,0 +1,23 @@
+/**
+    border-top-left-radius: radio del borde superior  izquierdo 
+    border-top-right-radius: radio del borde superior derecho
+    border-bottom-left-radius: radio del borde inferior izquierdo
+    border-bottom-right-radius: radio del borde inferior derecho
+        SI SE ASIGNAN DOS VALORES A CADA UNA SE FORMAN ELIPSES EL PRIMER VALOR REPRESENTA EL VALOR DEL RADIO EN X Y EL SEGUNDO EL VALOR DEL RADIO EN Y 
+    si se quiere hacer con un solo border-radius 
+        border-radius: #px / #px; para todas las esquinas iguales
+        border-radius: #px #px #px #px / #px #px #px #px   radios eje X / radios eje Y     
+*/
+body{
+    background-color: #333;
+}
+.box{
+    background-color: darkblue;
+    width:300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 50px /*X*/ 100px /*Y*/;
+    border-top-right-radius: 50px 100px;
+}

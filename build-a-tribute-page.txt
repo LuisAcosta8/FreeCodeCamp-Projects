@@ -1,0 +1,131 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkin Park Tribute</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+      <h1 id="title">Linkin Park</h1>
+      <div id="img-div">
+      <img src="https://kubomusical.com/wp-content/uploads/2020/05/8b1e81bb-2e0f-4831-ae90-4dac1e318050.jpg" alt="Linkin Park Members" id="image">
+      <figcaption id="img-caption">A photo of the band members
+</figcaption>
+      </div>
+      <div id="tribute-info">
+        <h1>About Linkin Park</h1>
+      <p>Linkin Park is an American rock band from Agoura Hills, California. Since its formation in 1996, the band has sold more than 100 million albums and won two Grammy Awards. </p>
+      <h2>Discography</h2>
+      <section>
+      <ul>
+        <li><a href="https://open.spotify.com/album/6PFPjumGRpZnBzqnDci6qJ?si=n7Hn6g6UST-wETp1_C39og" target="_blank">Hibryd Theory</a> - <strong>2000</strong></li>
+        <p>Linkin Park released Hybrid Theory on October 24, 2000. The album, which represented half a decade’s worth of the band’s work, was edited by music producer Don Gilmore. Hybrid Theory was well received by music fans; the band sold more than 4.8 million records during its debut year, earning it the status of best-selling album of 2001, while singles such as "Crawling" and "One Step Closer" established themselves as staples among alternative rock radio play lists during the year. Additionally, other singles from the album were featured in movies such as Dracula 2000, Little Nicky, and Valentine. Hybrid Theory was also nominated for three Grammy Awards, including best new artist, best rock album, and best hard rock performance (for "Crawling"). MTV awarded the band their Best Rock Video and Best Direction awards for "In the End". Through the winning of the Grammy for best hard rock performance, Hybrid Theory’s overall success had catapulted the band into the mainstream's attention.</p>
+        <li><a href="https://open.spotify.com/album/4Gfnly5CzMJQqkUFfoHaP3?si=t4kOBQuuRy2Uon53aorcDg" target="_blank">Meteora</a> - <strong>2003</strong></li>
+        <p>Following the success of Hybrid Theory, Linkin Park spent a significant amount of time touring around the United States. The band members began to work on new material amidst its saturated schedule, spending a sliver of their free time in their tour bus' studio. The band officially announced the production of a new studio album in December 2002, revealing its new work was inspired by the rocky region of Meteora in Greece, where numerous monasteries have been built on top of the rocks. Meteora featured a mixture of the band's previous nu metal and rapcore styles with newer innovative effects, including the induction of a shakuhachi (a Japanese flute made of bamboo) and other instruments. Linkin Park's second album debuted on March 25, 2003 and instantly earned worldwide recognition, going to #1 in the US and UK, and #2 in Australia.
+
+Meteora sold more than 800,000 copies during its first week, and it ranked as the best selling album on the Billboard charts at the time. Music videos for some of the album's singles, including "Somewhere I Belong", "Breaking the Habit", "Faint", and "Numb", received significant radio attention. By October 2003, Meteora sold nearly three million copies. The album's success allowed Linkin Park to form another Projekt Revolution, which featured other bands and artists including, Mudvayne, Blindside, and Xzibit. Additionally, Metallica invited Linkin Park to play at the Summer Sanitarium Tour 2003, which included well-known acts such as Limp Bizkit, Mudvayne and Deftones. The band released an album and DVD, entitled Live in Texas, which consisted of audio and video tracks of some of the band's performances in Texas during the tour. In early 2004, Linkin Park started a world tour titled the Meteora World Tour, supporting bands on the tour include Hoobastank, P.O.D. and Story of the Year.
+
+Meteora earned the band multiple awards and honors. The band won MTV's awards for Best Rock Video ("Somewhere I Belong") and the Viewer's Choice Award ("Breaking the Habit"). Linkin Park also received significant recognition during the 2004 Radio Music Awards, winning the Artist of the Year and Song of the Year ("Numb") awards. Although Meteora was not nearly as successful as Hybrid Theory, it was the third best selling album in America during 2003. The band spent the first few months of 2004 touring around the world, first with the third Projekt Revolution tour, and later several European concerts.</p>
+        <li><a href="https://open.spotify.com/album/2tlTBLz2w52rpGCLBGyGw6?si=brRccYkWQ-yIzkKQrdJPNw" target="_blank">Minutes To Midnight</a> - <strong>2007</strong></li>
+        <p>Linkin Park returned to the recording studios in 2006 to work on new material. To produce the album, the band chose producer Rick Rubin. Despite initially stating the album would debut sometime in 2006, the album was delayed until 2007. The band had recorded thirty to fifty songs in August 2006, when Shinoda stated the album was halfway completed. Bennington later added that the new album would stray away from its previous nu metal sound. Warner Bros. Records officially announced that the band’s third studio album, entitled Minutes to Midnight, would be released on May 15, 2007 in the United States. After spending fourteen months working on the album, the band members opted to further refine their album by removing five of the original seventeen tracks. The album’s title, a reference to the Doomsday Clock, foreshadowed the band's new lyrical themes. Minutes to Midnight sold over 750,000 copies in its first week, making it one of the most successful debut week albums in recent years. The album also took the top spot on the Billboard Charts.
+
+The album's first single,"What I've Done" was released on April 2, and premiered on MTV and Fuse within the same week. The single was acclaimed by listeners, becoming the top-ranked song on the Billboard's Modern Rock Tracks and Mainstream Rock Tracks charts. The song is also used in soundtrack for the 2007 action film, Transformers. Later in the year, the band won the "Favorite Alternative Artist" in the American Music Awards. The band also saw success with singles such as "Bleed It Out", "Shadow of the Day", "Given Up", and "Leave Out All the Rest", which were released throughout 2007 and early 2008. The band also collaborated with Busta Rhymes on his single "We Made It", which was released on April 29.</p>
+        <li><a href="https://open.spotify.com/album/5uvXx5ZQswNRFCdHR521YZ?si=el8lNjm7Qd6wq5fnr7HFPw" target="_blank">A Thousand Suns</a> - <strong>2010</strong></li>
+        <p>Linkin Park released their fourth album, A Thousand Suns on September 14, 2010. Rick Rubin and Mike Shinoda co-produced A Thousand Suns. Rubin and Shinoda previously worked together on Minutes To Midnight. The first single, "The Catalyst" is the first song in 14 months on the Rock Songs chart to hit number one. A Thousand Suns deals with themes of nuclear warfare, social injustice and technology. The idea for the name of the album comes from a quote by J. Robert Oppenheimer, "If the radiance of a thousand suns were to burst at once into the sky, that would be like the splendor of the mighty one." The album has had mixed reviews, but some critics liken it to the works of Radiohead and Pink Floyd. A Thousand Suns has sold more than 1 million copies worldwide and 523,000 were sold in its first week.</p>
+        <li><a href="https://open.spotify.com/album/4XHIjbhjRmqWlosjj5rqSI?si=h24HAXS1Q2GAJ58-I8R7zQ" target="_blank">Living Things</a> - <strong>2012</strong></li>
+        <p>In July 2011, Bennington told Rolling Stone that Linkin Park aims to produce a new album every eighteen months, and that he would be shocked if a new album did not come out in 2012. He later revealed in another interview in September 2011 that the band was still in the beginning phases of the next album, saying "We just kind of began. We like to keep the creative juices flowing, so we try to keep that going all the time...we like the direction that we're going in." Later, on March 28, 2012, Shinoda confirmed that the band is filming a music video for "Burn It Down". Joe Hahn directed the video. Shinoda spoke to Co.Create about the album's art, saying that it will "blow them [the fans] away...the average person is not going to be able to look at it and go, I understand that that's completely new, like not just the image but the way they made the image is totally new. So there's going to be that."
+
+On April 15, 2012, Shinoda announced that Living Things would be the title of Linkin Park's fifth album. Shinoda stated that they chose the title Living Things because the album is more about people, personal interactions, and it is far more personal than their previous albums. The band promoted the album on the 2012 edition of the Honda Civic Tour, with co-headliners Incubus. The band performed "Burn It Down" at 2012 Billboard Music Awards. On May 24, the band released the music video for "Burn It Down" and debuted "Lies Greed Misery", another song from Living Things, on BBC Radio 1. "Powerless", the twelfth and closing track of the album, was featured in the closing credits of the film Abraham Lincoln: Vampire Hunter.
+
+Living Things sold over 220,000 copies during its debut week, ranking No. 1 on the US Albums Charts. Linkin Park's single, "Castle of Glass", was nominated for 'Best Song in a Game' at the 2012 Spike Video Game Awards. </p>
+        <li><a href="https://open.spotify.com/album/3XB2yloP7l00tEUmaODtVi?si=H4Nbp7v3QBKQdOQswppb8g" target="_blank">The Hunting Party</a> - <strong>2014</strong></li>
+        <p>Is the sixth studio album by American rock band Linkin Park. The album, produced by band members Mike Shinoda and Brad Delson, was released by Warner Bros. Records and Machine Shop on June 13, 2014. Stylistically, The Hunting Party is a departure from the electronic rock and experimental sound of the band's previous two studio albums, A Thousand Suns (2010) and Living Things (2012) and marks a return to the band’s nu metal sound. The album, described by Shinoda as simply "a rock record", serves as a statement by the band against contemporary mainstream and active rock bands, accused by him as "trying to be other bands and playing it safe". Packaged by an artwork by Brandon Parvini based on an original drawing by James Jean, the album took under a year to record and produce, with material being improvisationally written by the band. The album also features guest appearances from Helmet's Page Hamilton, System of a Down's Daron Malakian, Rage Against the Machine's Tom Morello, and Rakim, marking the first time Linkin Park has collaborated with other artists on a studio album.
+
+The album was promoted by the band and Warner Bros, with multiple promotional teasers and interviews produced and published in the lead-up to the album's release and listening parties of the album being held worldwide on multiple dates. The band embarked on the Carnivores Tour, a double-headline tour with Thirty Seconds to Mars, as well as The Hunting Party Tour, in support of the album. Five singles from The Hunting Party have been released; "Guilty All the Same" in March 2014, "Until It's Gone" in May 2014, and "Wastelands", "Rebellion" and "Final Masquerade" in June 2014.
+
+The album received generally positive reviews from critics, who praised its return to the heavier rock sound of their older albums. It debuted at number three on the US Billboard 200, and has placed at number four on Revolver's list of "The 20 Best Albums of 2014". </p>
+        <li><a href="https://open.spotify.com/album/5Eevxp2BCbWq25ZdiXRwYd?si=fRffk_8-Q-63zeXhwZBU4g" target="_blank">One More Light</a> - <strong>2017</strong></li>
+        <p>One More Light is the seventh studio album by American rock band Linkin Park. It was released on May 19, 2017, through Warner Bros. Records and Machine Shop. 
+
+The band recorded the album between September 2015 and February 2017 in multiple studios. Band members Brad Delson and Mike Shinoda served as the album's primary producers. The sound of One More Light has been described as being more pop-focused, departing from the alternative rock and alternative metal sounds of their previous albums. The album features guest vocal appearances from Pusha T, Stormzy, and Kiiara, and production and songwriting collaborations with JR Rotem, Julia Michaels, Justin Tranter, Ross Golan, Andrew Goldstein, blackbear, and Eg White.It is also the band's first album to have a title track, as they felt that the song "One More Light" was the heart of the album.
+
+The album's lead single, "Heavy", featuring Kiiara, was released on February 16, 2017. "Battle Symphony", "Good Goodbye", and "Invisible" were released as promotional singles prior to the album's release. "Talking to Myself" and "One More Light" were released as radio singles later on. The album performed well commercially, debuting at number one in several countries; it also became the band's fifth number-one album on the Billboard 200[2] and was certified Gold in five countries. Despite a positive commercial performance, it received mixed reviews from music critics. This, along with accusations of selling out, prompted an angry response from Bennington.</p>
+      </ul>
+      <p>Months after the release of One More Light, on July 20, 2017, Bennington was found dead at his home in Palos Verdes, Los Angeles. The authorities revealed that the cause was suicide by hanging. After the confirmation of the event, Shinoda mourned the death of his friend and partner through a message on Twitter. The musician confessed to feeling "heartbroken" by the news. </p>
+<p>After his departure from this world, the remaining members of the band gave him a tribute concert months after his death. That was the last time they played together.
+</p>
+      </section>
+      </div>
+      <footer><a href="https://www.linkinpark.com/?frontpage=true&intcmp=201008/lpark/wr/spl/hp/but/bdy/ww/hybrid-theory-20th-anniv-merch-enter-site" target="_blank" id="tribute-link">Linkin Park
+</a> Official Site</footer>
+    </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+background-color: #666f88;
+}
+main{
+background-color: #788199;
+border-radius: 25px;
+text-align: center;
+}
+main > h1{
+  margin-top: 30px;
+  padding-top: 20px; 
+}
+main > div > figcaption{
+  text-align: left;
+  padding: 0px 20px;
+  color: #272727;
+}
+main > div > img{
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+p{
+align-items: center;
+text-align: justify;
+width: 80%;
+margin: 10px auto;
+padding: 5px;
+font-family: sans-serif;
+font-size: 1.2rem;
+}
+ul{
+list-style-type: none;
+}
+a:link {
+  text-decoration: none;
+  color: #2727ff;
+  font-size: 1.5rem;
+}
+a:hover{
+  color: gold;
+}
+a:active {
+  text-decoration: underline;
+  color: gold;
+}
+footer, strong{
+  font-size: 1.5rem;
+}
+footer > a{
+  text-decoration: none;
+  color: #2727ff;
+  font-size: 1.5rem;
+}
+
+** end of undefined **
+

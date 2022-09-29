@@ -1,0 +1,62 @@
+/*SELECTORES*/
+/*
+Selectores simples
+    Selectores elementales
+        Selector universal -> * aplica a todo el documento 
+        Selector de tipo o etiqueta -> Nombre de la etiqueta solamente aplica a la seleccion o etiqueta
+    Selectores de atributo 
+        id -> id del elemento (no es recomendable dar estilos asi)
+        clase -> clase del elemento (altamente recomendado)
+        otros atributos -> 
+        [nombre del atributo]
+        [atributo = valor]
+        [atributo^="valor"] -> compara el texto o el elemento que contemga y si lo tiene se cambia el estilo -> con o sin comillas
+        [atributo*=valor] -> selecciona el atributo independientemente de donde este
+        [atributo$=valor]Selecciona si termina por la palabra que escribimos
+        [atributo|=valor] Para idiomas lang=""
+Selectores compuestos
+    Selectores agrupados
+    Selectores combinadores
+    Pseudoclases - Pseudo elementos
+*/
+
+
+*{ background-color: white;
+}
+p{
+    background-color: crimson;
+}
+ul{
+    background-color: darkgreen;
+}
+li{
+    background-color: darksalmon;
+}
+/* #title{
+    color: aqua;
+} */
+.title{
+    color: aqua;
+}
+.text{
+    color: blueviolet;
+}
+[href]{
+    color: yellowgreen;
+    background-color: wheat;
+}
+[href = "https://google.com.mx"]{
+    background-color: whitesmoke;
+}
+[href^="color"]{
+    background-color: teal;
+}
+[href*="diamond"]{
+    background-color: indigo;
+}
+[href$="rojo"]{
+    background-color: red;
+}
+[lang="en"]{
+    background-color: magenta;
+}

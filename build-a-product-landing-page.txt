@@ -1,0 +1,135 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+      <img src="https://static.wikia.nocookie.net/all-worlds-alliance/images/3/33/The_Adventures_of_Gamesphere_Logo.png" id="header-img">
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#Home">Home</a></li>
+          <li><a class="nav-link" href="#Gamesphere">Gamesphere</a></li>
+          <li><a class="nav-link" href="#Tecnichal_Specifications">Technical specifications</a></li>
+          <li><a class="nav-link" href="#Price">Price</a></li>
+          <li><a class="nav-link" href="#Save_Your_Console">Save your console</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="Home">
+        <h1>Home</h1>
+        <h2>The best tv console</h2>
+        <h3>As you saw it on tv</h3>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/grtEt0Cudt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="Gamesphere">
+        <h1>Gamsphere</h1>
+        <p>The Game Sphere is the fifth platform released by Ninvento. Its real-life equivalent is the Nintendo GameCube. "Fernan is the crack damn" was what motivated Sony to launch the Game Sphere.
+
+The main drivers of the Game Sphere are Vonny's Playsystem 2 and Mirconoft's mBox.
+
+The Game Sphere had a disappointing launch and lackluster market share. They did not sell more than any of their competitors.</p>
+    </section>
+    <section id="Tecnichal_Specifications">
+        <h1>Tecnichal Specifications</h1>
+        <ul>
+            <li><strong>CPU:</strong> FPU de 64 bits</li>
+            <li><strong>RAM:</strong> 43 MB</li>
+            <li><strong>Sonido:</strong> Dolby Pro Logic II Sonido Estéreo</li>
+        </ul>
+    </section>
+    <section id="Price">
+        <h1>Price</h1>
+            <table>
+                <caption>This console can be yours for only</caption>
+                <tbody>
+                <tr>
+                <th>License Cost</th>
+                </tr>
+                <tr>
+                <td><strong>$450k</strong></td>
+                </tr>
+                </tbody>
+            </table>
+    </section>
+    <section id="Save_Your_Console">
+        <h1>Save Your Console</h1>
+        <p>Send your email and we will contact you so that you can pay and we will send you your console
+</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" placeholder="Enter your email!" name="email">
+        <input id="submit" type="submit" value="Send your info">
+        </form>
+    </section>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  margin-top: 100px;
+  background-color: #FFFDD1;
+  font-family: sans-serif;
+  text-align: center;
+  position: absolute;
+  align-items: center;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #F8F2C6;
+  display: flex;
+  justify-content: space-between;
+}
+body > header > img{
+  max-width: 100%;
+  width: 100px;
+}
+header > nav > ul{
+  list-style-type: none;
+  display: grid;
+  font-size: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: #E5BE01;
+  font-weight: bold;
+}
+a:hover{
+  color: #fad201
+}
+ul{
+  list-style-type: none;
+}
+caption{
+  border: 8px solid black;
+}
+table{
+  border: 8px solid black;
+  text-align: center;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  body {
+    width: 500px;
+  }
+  header{
+    width: 500px;
+  }
+
+** end of undefined **
+

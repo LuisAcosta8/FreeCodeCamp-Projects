@@ -1,0 +1,46 @@
+/*
+Selectores compuestos
+    Selectores agrupados
+    .text, 
+    .text-2, 
+    .text-3, 
+    .text-4{
+    background-color: mediumaquamarine;
+}
+    Selectores combinadores
+    *Selector descendiente
+    html body div .atributo{
+        valor
+    } (no se recomienda poner mas de un nivel)
+    *Selector de hermano siguiente
+    .atributo + atributo{
+valor
+    }
+    o
+    .text-2 ~ atributos{
+ valor
+    }
+    (Solo selecciona el hermano siguiente o los hermanos siguientes)
+    *Selector hijo directo
+    .container > atributo {
+    valor
+    }
+*/
+/*Selectores compuestos*/
+.text, 
+.text-2,
+.text-3{
+    background-color: mediumaquamarine;
+}
+/*Selectores combinadores*/
+div .title-2{
+    background-color: green;
+}
+h2{
+    background-color: brown;
+}
+h3 + .text-2{
+    color: darkblue;
+        }
+
+

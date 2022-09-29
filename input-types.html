@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura basica de un formulario</title>
+</head>
+<body>
+ <form>
+     <input><!--El valor por defecto es texto-->
+     <button>Enviar</button>
+     <input type="button">
+     <input type="submit" value="Enviar input">
+ </form>
+ <!--
+    button: Botón sin un comportamiento específico.
+    checkbox: Casilla de selección. Se debe usar el atributo value para definir el valor que se enviará por este elemento. Se usa el atributo checked para indicar si el elemento está seleccionado. También se puede usar el atributo indeterminate (el cual solo se puede establecer programaticamente) para indicar que la casilla está en un estado indeterminado (en la mayoría de las plataformas, se dibuja una línea horizontal a través de la casilla).
+    color: HTML5 Control para espicificar un color. Una interfaz de selección de color no requiere más funcionalidad que la de aceptar colores simples como texto (más información).
+    date: HTML5 Control para introducir una fecha (año, mes y día, sin tiempo).
+    datetime: HTML5   Control para introducir una fecha y hora (horas, minutos, segundos y fracción de segundo), basado en la zona horaria UTC. Esta característica ha sido removida de WHATWG HTML.
+    datetime-local: HTML5 Control para introducir fecha y hora, sin zona horaria específica. No funciona en firefox.**
+    email: HTML5 Campo para introducir una dirección de correo electrónico. El valor introducido se valida para que contenga una cadena vacía o una dirección de correo válida antes de enviarse. Las pseudo-clases :valid y :invalid son aplicadas segun corresponda.
+    file: Control que permite al usuario seleccionar un archivo. Se puede usar el atributo accept para definir los tipos de archivo que el control podrá seleccionar.
+    hidden: Control que no es mostrado en pantalla, pero cuyo valor es enviado al servidor.
+    image: Botón de envío de formulario con gráfico. Se debe usar el atributo src para definir el origen de la imagen y el atributo alt para definir un texto alternativo. Se puede usar los atributos height y width para definir el tamaño de la imagen en píxeles.
+    month: HTML5 Control para introducir un mes y año, sin zona horaria específica.
+    number: HTML5 Control para introducir un número de punto flotante.
+    password: Control de línea simple cuyo valor permanece oculto. Se puede usar el atributo maxlength para especificar la longitud máxima del valor que se puede introducir.
+    radio: Botón radio. Se debe usar el atributo value para definir el valor que se enviará por este elemento. Se usa el atributo checked para indicar si el elemento está seleccionado de forma predeterminada. Los botones radio que tengan el mismo valor para su atributo name están dentro del mismo "grupo de botones radio". Solo un botón radio dentro de un grupo puede ser seleccionado a la vez.
+    range: HTML5 Control para introducir un número cuyo valor exacto no es importante. Este control usa los siguientes valores predeterminados si no se especifica cada atributo:
+    min: 0
+    max: 100
+    value: min + (max - min) / 2, o min si max es menor que min
+    step: 1
+    reset: Botón que restaura los contenidos de un formulario a sus valores predeterminados.
+    search: HTML5 Cuadro de texto de línea simple para introducir textos de búsqueda. Los saltos de línea son eliminados automáticamente del valor introducido.
+    submit: Botón que envía el formulario.
+    tel: HTML5 Control para introducir un número telefónico. Los saltos de línea son eliminados automáticamente del valor introducido, pero no hay otra sintaxis forzada. Se pueden usar atributos como pattern y maxlength para restringir los valores introducidos en este control. Las pseudo-clases CSS :valid y :invalid son aplicadas segun corresponda.
+    text: Campo de texto de línea simple. Los saltos de línea son eliminados automáticamente del valor introducido.
+    time: HTML5 Control para introducir un valor de tiempo sin zona horaria específica.
+    url: HTML5 Campo para editar una URL. El valor introducido se valida para que contenga una cadena vacía o una ruta URL absoluta antes de enviarse. Los saltos de línea y espacios en blanco al principio o al final del valor son eliminados automáticamente. Se pueden usar atributos como pattern y maxlength para restringir los valores introducidos en el control. Las pseudo-clases :valid y :invalid son aplicadas segun corresponda.
+    week: HTML5 Control para introducir una fecha que consiste en número de semana del año y número de semana sin zona horaria específica. 
+ 
+    ** Para firefox 
+    *Se recomienda usar date y time por separado
+-->
+<div>
+ <form>
+     <input type="date">
+     <input type="datetime-local">
+    <input type="month">
+ </form>
+</div>
+
+ <form>
+    <div>
+     <label>Search
+         <input type="search">
+     </label>
+    </div>
+     <div>
+     <label>Teléfono
+        <input type="tel">
+    </label>
+</div>
+<div>
+    <label>E-mail
+        <input type="email">
+    </label>
+</div>
+<div>
+    <label>Password
+        <input type="password">
+    </label>
+</div>
+<div>
+    <label>URL
+        <input type="url">
+    </label>
+</div>
+ </form>
+</body>
+</html>

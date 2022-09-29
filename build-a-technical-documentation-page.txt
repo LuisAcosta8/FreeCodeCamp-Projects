@@ -1,0 +1,232 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <nav id="navbar">
+    <header>SQL COMMANDS</header>
+  <ul>
+    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#Data_Definition_Language">Data Definition Language</a></li>
+    <li><a class="nav-link" href="#Data_Query_Language">Data Query Language</a></li>
+    <li><a class="nav-link" href="#Data_Manipulation_Language">Data Manipulation Language</a></li>
+    <li><a class="nav-link" href="#Data_Control_Language">Data Control Language</a></li>
+    <li><a class="nav-link" href="#Transaction_Control_Language">Transaction Control Language</a></li>
+    <li><a class="nav-link" href="#References">References</a></li>
+  </ul>
+</nav>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Commands</title>
+    <link rel="stylesheet" href="styles.css"">
+</head>
+<body>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header><h2>Introduction</h2>
+        </header>
+        <p>Structured Query Language(SQL) as we all know is the database language by the use of which we can perform certain operations on the existing database and also we can use this language to create a database. SQL uses certain commands like Create, Drop, Insert, etc. to carry out the required tasks. 
+
+<br>These SQL commands are mainly categorized into four categories as: </p>
+<ol>
+  <li>DDL - Data Definition Language</li>
+  <li>DQL - Data Query Language</li>
+  <li>DML - Data Manipulation Language</li>
+  <li>DCL - Data Control Language</li>
+</ol>
+<p>Though many resources claim there to be another category of SQL clauses TCL – Transaction Control Language. So we will see in detail about TCL as well.</p>
+      </section>
+      <section class="main-section" id="Data_Definition_Language">
+        <header><h2>Data Definition Language</h2></header>
+        <p>Este lenguaje permite a los programadores de un sistema gestor de base de datos, como Postgres, definir las estructuras que almacenarán los datos así como los procedimientos o funciones que permitan consultarlos.
+
+<br>Para definir las estructura disponemos de tres sentencias:</p>
+      <p>
+        <br><strong>CREATE</strong> - It is used to create a database, table, views, etc.
+      </p>
+        <code>
+          <br>CREATE DATABASE databasename;
+          <br>CREATE TABLE tablename;
+          <br>CREATE VIEW viewname...
+        </code>
+      <p>
+        <br><strong>ALTER</strong> - It is used to modify the structure, for example add or delete columns of a table.
+      </p>
+        <code>
+          <br>ALTER TABLE table_name
+          <br>ADD column_name datatype;
+        </code>
+      <p>
+        <br><strong>DROP</strong> - With this sentence, we can eliminate the objects of the structure, for example an index or a sequence.
+      </p>
+        <code>
+          <BR>DROP TABLE table_name;
+        </code>
+      <p>
+        <br><strong>TRUNCATE</strong> - Removes all rows from a table or specified partitions of a table, without logging the individual row deletions. TRUNCATE TABLE is similar to the DELETE statement with no WHERE clause.
+      </p>
+        <code>
+          <br>TRUNCATE TABLE table_name;
+        </code>
+      </section>
+      <section class="main-section" id="Data_Query_Language">
+        <header><h2>Data Query Language</h2></header>
+        <p>
+The only command that belongs to this language is the versatile command
+SELECT This command allows:
+</p>
+<ul>
+  <li>Get data from certain columns of a table (projection)</li>
+  <li>Get records (rows) from a table according to certain criteria
+(selection)</li>
+  <li>Mix data from different tables (association, join)</li>
+  <li>Perform calculations on the data</li>
+  <li>Group data</li>
+</ul>
+<code>
+SELECT column1, column2, ...
+<br>FROM table_name;
+</code>
+      </section>
+      <section class="main-section" id="Data_Manipulation_Language">
+        <header><h2>Data Manipulation Language</h2></header>
+        <p>Utilizando instrucciones de SQL, permite a los usuarios introducir datos para posteriormente realizar tareas de consultas o modificación de los datos que contienen las Bases de Datos.
+
+Los elementos que se utilizan para manipular los datos, son los siguientes:
+        </p>
+        <p>
+          <br><strong>INSERT</strong> - With this instruction we can insert the values ​​into a database.
+        </p>
+          <code><br>INSERT INTO table_name (column1, column2, column3, ...)
+<br>VALUES (value1, value2, value3, ...);
+          </code>
+        <p>
+          <br><strong>UPDATE</strong> - It is used to modify the values ​​of one or more registers.
+        </p>
+          <code><br>UPDATE table_name
+<br>SET column1 = value1, column2 = value2, ...
+<br>WHERE condition;</code>
+          <p>
+          <br><strong>DELETE</strong> - This statement is used to delete existing records in a table.
+          </p>
+          <code><br>DELETE FROM table_name <br>WHERE condition;</code>
+      </section>
+      <section class="main-section" id="Data_Control_Language">
+        <header><h2>Data Control Language</h2></header>
+        <p>These commands allow the Database Manager System Administrator to control access to objects, that is, we can grant or deny permissions to one or more roles to perform certain tasks.
+
+The commands to control permissions are as follows:</p>
+      <p>
+        <br><strong>GRANT</strong> - This statement allows granting permissions
+      </p>
+        <code>GRANT ALL PRIVILEGES  
+ON 1table1, table2,  ...  
+[ WITH GRANT OPTION] TO user1, user2 ...</code>
+      <p>
+          <strong>REVOKE</strong> - This statement removes permissions that have previously been granted.
+      </p>
+        <code>REVOKE CREATE ON * ON 'ASMITH';</code>
+      </section>
+      <section class="main-section" id="Transaction_Control_Language">
+        <header><h2>Transaction Control Language</h2></header>
+        <p>It is a programming language and a subset of SQL, used to control transaction processing in a database.
+
+A transaction is a logical unit of work that comprises one or more SQL statements, typically a Data Manipulation Language (DML) group.
+
+<br>Examples of TCL commands include:</p>
+      <p>
+          <strong>COMMIT</strong> - Marks the end of a successful implicit or explicit transaction.
+      </p>
+      <p>
+          <strong>SAVEPOINT</strong> - It is used for dividing (or) breaking a transaction into multiple units so that the user has a chance of roll backing the transaction up to a specified point.
+      </p>
+      <p>
+        <strong>ROLLBACK</strong> - Returns the data to the state it was in at the beginning of the transaction. Also releases the resources that are holding the transaction.
+      </p>
+      </section>
+      <section class="main-section" id="References">
+        <header><h2>References</h2></header>
+        <p>If you want to know more about sql, you can visit any of the following links
+</p>
+<ul id="Links">
+  <li>mysql click <a href="https://dev.mysql.com/doc/">here</a></li>
+  <li>Access click <a href="https://support.microsoft.com/es-es/office/access-sql-conceptos-b%C3%A1sicos-vocabulario-y-sintaxis-444d0303-cde1-424e-9a74-e8dc3e460671">here</a></li>
+  <li>w3schools click <a href="https://www.w3schools.com/sql/default.asp">here</a></li>
+<ul>
+      </section>
+    </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar{
+  position: fixed;
+  height: 100%;
+  min-width: 300px;
+  width: 300px;
+  top: 0;
+  left: 0;
+  color: black;
+  background-color: Ghostwhite;
+  padding: 40px 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#navbar header{
+  color: #0a0a0a;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  border: solid #0a0a0a;
+  border-width: 10px;
+}
+#navbar li{  
+  list-style-type: none;
+  padding: 30px 0px;
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+#navbar a {
+  color: gray;
+  text-decoration: none;
+}
+#navbar a:hover{
+  color: black;
+}
+body{
+  line-height: 1;
+  width: 100%;
+  background-color: #c7c8ca
+}
+main{
+  margin: 20px 300px;
+  width: 700px;
+  position: sticky;
+  font-family: 'Open Sans', arial;
+  font-size: large;
+  line-height: 1.5;
+  color:#0a0a0a;
+}
+code{
+  background-color: Ghostwhite;
+}
+#Links > li > a{
+  color: #0a0a0a;
+  text-decoration: none;
+  font-weight: bold;
+}
+#Links > li > a:hover{
+  color: purple;
+}
+@media (max-width: 768px) {
+  #main-doc {
+    width: 500px;
+  }
+
+** end of undefined **
+

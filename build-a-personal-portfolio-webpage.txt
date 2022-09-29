@@ -1,0 +1,148 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+</head>
+<body>
+    <header id="navbar">
+      <ul>
+        <li><a class="nav-link" href="#welcome-section">About me</a></li>
+        <li><a class="nav-link" href="#projects">Work</a></li>
+        <li><a class="nav-link" href="#contact-section">Contact</a></li>
+      </ul>
+    </header>
+    <section id="welcome-section">
+      <br>
+      <h1>Welcome</h1>
+      <h3>Hi, I am Luis Acosta, I live in Mexico City, I am 28 years old, I am an aeronautical engineering intern, I like sports, especially soccer and I've been learning about programming languages ​​since I got out of school.</h3>
+    </section>
+    <section id="projects">
+      <h1>These are some of my projects</h1>
+      <hr />
+      <div>
+        <ul>
+          <li><a href="https://codepen.io/Luisacosta08/pen/xxWvjEz" class="project-tile">Survey Form</a></li>
+          <li><a href="https://codepen.io/Luisacosta08/pen/qBoeYqM" class="project-tile">Tribute Page</a></li>
+          <li><a href="https://codepen.io/Luisacosta08/pen/mdxNLWN" class="project-tile">Technical Documentation Page</a></li>
+          <li><a href="https://codepen.io/Luisacosta08/pen/BarXxZo" class="project-tile">Product Landing Page</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact-section">
+      <h1>Let's learn together</h1>
+      <div>
+        <a href="https://twitter.com/Luiskacosta8" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        <a href="https://www.facebook.com/luiskav1" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a id="profile-link" href="https://github.com/LuisAcosta8" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </section>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root{
+  --yellow-background: rgb(246, 207, 87);
+  --black-background: rgb(0, 0, 0);
+}
+
+body{
+  background: var(--yellow-background);
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+header{
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--black-background);
+  display: flex;
+  justify-content: space-between;
+}
+#navbar ul{
+  display: grid;
+  font-size: 1rem;
+  grid-template-columns: repeat(1, 5fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 3fr;
+  margin-left: auto;
+  margin-right: 15px;
+}
+#welcome-section{
+  width: 700px;
+  margin: 0 auto;
+}
+#welcome-section h1{
+  margin-top: 50px;
+  font-family: "Britannic Bold";
+  font-size: 100px;
+  text-align: center;
+}
+#welcome-section h3{
+  margin-top: 0px;
+  font-family: congenial, sans-serif;
+  font-size: 30px;
+  marging: auto;
+  text-align: justify;
+}
+#projects h1{
+  font-family: "Britannic Bold";
+  font-size: 40px;
+}
+hr {
+  margin: 2.5rem 0;
+  border: 1px solid rgba(120, 120, 120, 0.6);
+}
+ul{
+  list-style-type: none;
+}
+#projects{
+  color: var(--yellow-background);
+  background-color: var(--black-background)
+}
+a{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: var(--yellow-background);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover{
+  background-color: var(--yellow-background);
+  color: var(--black-background);
+}
+#contact-section div{
+  background-color: var(--black-background);
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  body {
+    width: 500px;
+  }
+  #welcome-section{
+  width: 500px;
+  margin: 0 auto;
+  }
+
+  header{
+    margin-left: 70px;
+    width: 500px;
+  }
+
+** end of undefined **
+

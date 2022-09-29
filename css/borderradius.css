@@ -1,0 +1,35 @@
+/*
+border-radius: Nos permite redondear vertices de forma independiente
+    border-top-left-radius: radio del borde superior  izquierdo 
+    border-top-right-radius: radio del borde superior derecho
+    border-bottom-left-radius: radio del borde inferior izquierdo
+    border-bottom-right-radius: radio del borde inferior derecho
+
+    Si solo recibe un solo valor
+    dibujara un circulo con ese radio
+        border-radius: #px;
+
+    border-radius: #px #px; (esquinasupizqinfderecha    esquinasupderinfizq)
+    border-radius: #px #px #px; (supizq supder  infder)
+    border-radius: #px #px #px #px; (supizq supder  infder infizq)
+*/
+body{
+    background-color: #333;
+    color: cornflowerblue;
+    margin: 0;
+}
+h1{
+    background-color: khaki;
+    margin: 0;
+    padding: 150px;
+    border-radius: 50px;
+}
+.box{
+    background-color: lightcoral;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px 100px 120px;
+}

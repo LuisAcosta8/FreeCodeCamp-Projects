@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Build a Survey Form</title>
+</head>
+<body>
+    <div>
+        <h1>Welcome to the college</h1>
+        <h2>If you are looking for a good university, we are the best option!
+    </h2>
+        <p class="fill">Fill in the following form so that we can contact you</p>
+    </div>
+    <div>
+        <form>
+            <fieldset>
+        <div>
+           <p>Name</p>
+           <input type="text" placeholder="Enter your Name" id="name" required>
+        </div>
+        <div>
+           <p>Surname</p>
+           <input type="text" placeholder="Enter your Surname" id="surname" required>
+        </div>
+        <div>
+           <p>E-mail</p>
+           <input type="email" placeholder="Enter your E-mail" id="email" required>
+        </div>
+           <div>
+           <p>Age</p>
+           <input type="number" min="15" max="70" placeholder="Entrer your age" id="age" required>
+        </div>
+        <div>
+           <p>Occupation</p>
+           <select name="occupation" required>
+            <option disabled selected value>Select current role</option>
+               <option value="student">Student</option>
+               <option value="employer">Employer</option>
+               <option value="Employee">Employee</option>
+               <option value="other">Other</option>
+               <option value="n/a">N/A</option>
+           </select>
+        </div>
+        <div>
+           <p>How did you hear about us?</p>
+           <input type="radio" name="ask1" value="newspaper" checked>
+           <label>Newspaper</label>
+           <input type="radio" name="ask1" value="internet">
+           <label>Internet</label>
+           <input type="radio" name="ask1" value="TS">
+           <label>Through someone</label>
+        </div>
+        <div>
+            <p>What kind of information do you need?</p>
+            <select name="info" required>
+                <option disabled selected value>Select an option</option>
+                <option value="preparatory">Preparatory</option>
+                <option value="college">College</option>
+                <option value="postgraduate">Postgraduate</option>
+                <option value="RC">Refresher courses</option>
+            </select>
+        </div>
+        <div>
+        <p>Why are you interested in studying here? (You can check more than one box)</p>
+        <input type="checkbox" name="interesting" value="ss">Sports scholarships
+        <input type="checkbox" name="interesting" value="as">Academic scholarships
+        <input type="checkbox" name="interesting" value="mg">Mobility grants
+        <input type="checkbox" name="interesting" value="lt">Low tuition
+        <input type="checkbox" name="interesting" value="f">Facilities
+        <input type="checkbox" name="interesting" value="eo">Educational offer
+        <input type="checkbox" name="interesting" value="csa">Company-school agreements
+        </div>
+        <div>
+        <p>Any comments or suggestions?</p>
+        <textarea cols="70" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+        </form>
+    </div>
+</fieldset>
+</body>
+</html>
